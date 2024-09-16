@@ -1,0 +1,195 @@
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #004d99;
+  padding: 30px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensure the sidebar is on top */
+  overflow-y: auto; /* Add scroll if needed */
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sidebar-logo {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.student-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  border: 3px solid white;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 15px 0;
+  font-size: 1.2rem;
+  padding: 12px;
+  transition: background-color 0.3s, padding-left 0.3s;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.sidebar a:hover {
+  background-color: #0066cc;
+}
+
+/* Main Container */
+.container {
+  margin-left: 300px; /* Sidebar width (250px) + Gap (50px) */
+  padding-left: 200px;
+  padding-top: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensure contents don't overflow */
+  position: relative; /* Ensure it is positioned correctly */
+  z-index: 1; /* Ensure it's above the background but below the sidebar */
+}
+
+
+
+header {
+  background-color: #004d99;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+p {
+  margin: 10px 0 0;
+  font-size: 1.1rem;
+}
+
+/* Subject List */
+#subjects-section {
+  margin-top: 30px;
+}
+
+#subjects-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Wrap items on smaller screens */
+  justify-content: space-around;
+}
+
+#subjects-list li {
+  background-color: #0066cc;
+  color: white;
+  padding: 15px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center text */
+}
+
+#subjects-list li:hover {
+  background-color: #004d99;
+  transform: scale(1.05);
+}
+
+/* Assignments Section */
+#assignments-section {
+  margin-top: 40px;
+  text-align: left;
+}
+
+#assignments-section h2 {
+  font-size: 1.8rem;
+  color: #333;
+  border-bottom: 2px solid #004d99;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  font-size: 1rem;
+}
+
+th {
+  background-color: #f0f4f8;
+  font-weight: bold;
+  color: #004d99;
+  text-transform: uppercase;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  #subjects-list {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  table th,
+  table td {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+}

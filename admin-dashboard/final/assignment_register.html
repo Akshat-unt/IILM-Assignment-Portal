@@ -1,0 +1,72 @@
+<?php
+// Database connection
+$host = 'localhost';
+$dbUsername = 'eajlbarx_iilmuniversity';
+$dbPassword = 'Shivansh@IILM2k24';
+$dbName = 'eajlbarx_assignmentiilm';
+
+$conn = new mysqli($host, $dbUsername, $dbPassword, $dbName);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $fac_id = $_POST['fac_id'];
+    $course_id = $_POST['course_id'];
+    $sub_id = $_POST['sub_id'];
+    $assign_title = $_POST['assign_title'];
+    $assign_des = $_POST['assign_des'];
+    $assign_date = $_POST['assign_date'];
+    $assign_due = $_POST['assign_due'];
+
+    $sql = "INSERT INTO Assignments (Fac_id, Course_id, Sub_id, Assign_Title, Assign_des, Assign_date, Assign_due)
+            VALUES (?, ?, ?, ?, ?, ?, ?)";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("iisssss", $fac_id, $course_id, $sub_id, $assign_title, $assign_des, $assign_date, $assign_due);
+
+    if ($stmt->execute()) {
+        echo "Assignment created successfully!";
+    } else {
+        echo "Error: " . $stmt->error;
+    }
+    $stmt->close();
+    $conn->close();
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Registration</title>
+</head>
+<body>
+    <h2>Assignment Creation Form</h2>
+    <form action="assignment_register.php" method="POST">
+        <label for="fac_id">Faculty ID:</label><br>
+        <input type="number" id="fac_id" name="fac_id" required><br><br>
+
+        <label for="course_id">Course ID:</label><br>
+        <input type="number" id="course_id" name="course_id" required><br><br>
+
+        <label for="sub_id">Subject ID:</label><br>
+        <input type="number" id="sub_id" name="sub_id" required><br><br>
+
+        <label for="assign_title">Assignment Title:</label><br>
+        <input type="text" id="assign_title" name="assign_title" required><br><br>
+
+        <label for="assign_des">Assignment Description:</label><br>
+        <textarea id="assign_des" name="assign_des" required></textarea><br><br>
+
+        <label for="assign_date">Assignment Date:</label><br>
+        <input type="date" id="assign_date" name="assign_date" required><br><br>
+
+        <label for="assign_due">Due Date:</label><br>
+        <input type="date" id="assign_due" name="assign_due" required><br><br>
+
+        <input type="submit" value="Create Assignment">
+    </form>
+</body>
+</html>

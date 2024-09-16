@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher Registration</title>
+  <style>
+    /* Include the updated CSS from above here */
+    /* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ece9e6, #ffffff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #2c3e50;
+  padding: 20px;
+  color: white;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  background-color: #34495e;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.sidebar ul li a:hover {
+  background-color: #1abc9c;
+}
+
+/* Blue top stripe */
+.top-stripe {
+  position: fixed;
+  top: 0;
+  left: 250px;
+  right: 0;
+  height: 50px;
+  background-color: #2980b9;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+/* Form container */
+.form-container {
+  margin-left: 250px;
+  padding: 50px;
+  padding-top: 100px;
+  width: 100%;
+}
+
+/* Heading */
+.form-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding: 70px 0; /* Adds padding of 70px top and bottom */
+}
+
+/* Form */
+.form-container form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container form .input-group {
+  margin-bottom: 15px;
+}
+
+.form-container form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-container form input,
+.form-container form select,
+.form-container form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  color: #333;
+  background-color: #f1f1f1; /* Consistent background color */
+}
+
+.form-container form textarea {
+  resize: vertical;
+}
+
+/* Button */
+.form-container form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-container form button:hover {
+  background-color: #1abc9c;
+}
+
+  </style>
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>Admin Panel</h2>
+    <ul>
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Student Management</a></li>
+      <li><a href="#">Add Student</a></li>
+      <li><a href="#">Course Management</a></li>
+      <li><a href="#">Teacher Management</a></li>
+      <li><a href="#">Reports</a></li>
+    </ul>
+  </div>
+
+  <!-- Top stripe -->
+  <div class="top-stripe">
+    Register New Teacher
+  </div>
+
+  <!-- Form container -->
+  <div class="form-container">
+    <h1>Teacher Registration</h1>
+    <form action="#" method="POST">
+      <div class="input-group">
+        <label for="teacher-name">Name</label>
+        <input type="text" id="teacher-name" name="teacher-name" required>
+      </div>
+
+      <div class="input-group">
+        <label for="education">Education</label>
+        <input type="text" id="education" name="education" required>
+      </div>
+
+      <div class="input-group">
+        <label for="background">Background</label>
+        <textarea id="background" name="background" rows="4" required></textarea>
+      </div>
+
+      <div class="input-group">
+        <label for="graduation">Graduation/Post-Graduation</label>
+        <input type="text" id="graduation" name="graduation" required>
+      </div>
+
+      <div class="input-group">
+        <label for="subject-teaching">Subject Teaching</label>
+        <input type="text" id="subject-teaching" name="subject-teaching" required>
+      </div>
+
+      <div class="input-group">
+        <label for="phone-no">Phone Number</label>
+        <input type="tel" id="phone-no" name="phone-no" required>
+      </div>
+
+      <div class="input-group">
+        <label for="alternate-phone-no">Alternate Phone Number</label>
+        <input type="tel" id="alternate-phone-no" name="alternate-phone-no">
+      </div>
+
+      <div class="input-group">
+        <label for="address">Address</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

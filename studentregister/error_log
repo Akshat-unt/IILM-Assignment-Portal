@@ -1,0 +1,45 @@
+[14-Sep-2024 10:41:25 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php:141
+Stack trace:
+#0 /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php(141): mysqli->query('SELECT Course_i...')
+#1 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php on line 141
+[14-Sep-2024 10:46:18 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php:145
+Stack trace:
+#0 /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php(145): mysqli->query('SELECT Course_i...')
+#1 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php on line 145
+[14-Sep-2024 10:46:34 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php:145
+Stack trace:
+#0 /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php(145): mysqli->query('SELECT Course_i...')
+#1 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php on line 145
+[14-Sep-2024 10:58:00 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php:145
+Stack trace:
+#0 /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php(145): mysqli->query('SELECT Course_i...')
+#1 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php on line 145
+[14-Sep-2024 11:03:38 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php:145
+Stack trace:
+#0 /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php(145): mysqli->query('SELECT Course_i...')
+#1 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php on line 145
+[14-Sep-2024 11:09:28 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php:145
+Stack trace:
+#0 /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php(145): mysqli->query('SELECT Course_i...')
+#1 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php on line 145
+[14-Sep-2024 11:10:55 UTC] PHP Warning:  Undefined array key "stu_name" in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php on line 27
+[14-Sep-2024 11:10:55 UTC] PHP Warning:  Undefined array key "stu_email" in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php on line 28
+[14-Sep-2024 11:10:55 UTC] PHP Warning:  Undefined array key "stu_password" in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php on line 29
+[14-Sep-2024 11:10:55 UTC] PHP Warning:  Undefined array key "stu_course" in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php on line 30
+[14-Sep-2024 11:10:55 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php on line 33
+[14-Sep-2024 11:10:55 UTC] PHP Warning:  Undefined variable $stmt in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php on line 85
+[14-Sep-2024 11:10:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php:85
+Stack trace:
+#0 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php on line 85
+[14-Sep-2024 12:20:51 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php:145
+Stack trace:
+#0 /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php(145): mysqli->query('SELECT Course_i...')
+#1 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/studentregister/index.php on line 145

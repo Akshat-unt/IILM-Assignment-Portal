@@ -1,0 +1,200 @@
+[14-Sep-2024 11:46:49 UTC] PHP Warning:  include(overview.php): Failed to open stream: No such file or directory in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php on line 53
+[14-Sep-2024 11:46:49 UTC] PHP Warning:  include(overview.php): Failed to open stream: No such file or directory in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php on line 53
+[14-Sep-2024 11:46:49 UTC] PHP Warning:  include(): Failed opening 'overview.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php on line 53
+[14-Sep-2024 11:49:24 UTC] PHP Warning:  include(manage_students.php): Failed to open stream: No such file or directory in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php on line 51
+[14-Sep-2024 11:49:24 UTC] PHP Warning:  include(manage_students.php): Failed to open stream: No such file or directory in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php on line 51
+[14-Sep-2024 11:49:24 UTC] PHP Warning:  include(): Failed opening 'manage_students.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php on line 51
+[14-Sep-2024 12:07:53 UTC] PHP Warning:  Undefined variable $conn in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 11
+[14-Sep-2024 12:07:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 11
+[14-Sep-2024 12:08:13 UTC] PHP Warning:  Undefined array key "role" in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/delete_user.php on line 3
+[14-Sep-2024 12:08:24 UTC] PHP Warning:  Undefined array key "role" in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/delete_user.php on line 3
+[14-Sep-2024 12:08:55 UTC] PHP Warning:  Undefined variable $conn in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/add_user.php on line 57
+[14-Sep-2024 12:08:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/add_user.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/add_user.php on line 57
+[15-Sep-2024 05:15:05 UTC] PHP Warning:  Undefined variable $conn in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 11
+[15-Sep-2024 05:15:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 11
+[15-Sep-2024 05:19:18 UTC] PHP Warning:  Undefined variable $conn in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 10
+[15-Sep-2024 05:19:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 10
+[15-Sep-2024 05:24:05 UTC] PHP Warning:  include(edit_user.php?id=25.php): Failed to open stream: No such file or directory in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php on line 50
+[15-Sep-2024 05:24:05 UTC] PHP Warning:  include(edit_user.php?id=25.php): Failed to open stream: No such file or directory in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php on line 50
+[15-Sep-2024 05:24:05 UTC] PHP Warning:  include(): Failed opening 'edit_user.php?id=25.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php on line 50
+[15-Sep-2024 05:27:15 UTC] PHP Warning:  Undefined variable $conn in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 12
+[15-Sep-2024 05:27:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 12
+[15-Sep-2024 05:27:24 UTC] PHP Warning:  Undefined variable $conn in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 12
+[15-Sep-2024 05:27:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 12
+[15-Sep-2024 05:27:25 UTC] PHP Warning:  Undefined variable $conn in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 12
+[15-Sep-2024 05:27:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 12
+[15-Sep-2024 05:28:19 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:28:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:28:19 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:28:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:28:19 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:28:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:28:19 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:28:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:28:19 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:28:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:28:19 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:28:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:28:19 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:28:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:28:19 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:28:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:19 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:19 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:19 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:19 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:19 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:19 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:19 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:19 UTC] PHP Warning:  Undefined variable $user in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:29:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_users.php on line 40
+[15-Sep-2024 05:34:17 UTC] PHP Warning:  Undefined variable $conn in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/delete_user.php on line 14
+[15-Sep-2024 05:34:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/delete_user.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/delete_user.php on line 14
+[15-Sep-2024 05:43:26 UTC] PHP Warning:  include(manage_faculty.php): Failed to open stream: No such file or directory in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php on line 50
+[15-Sep-2024 05:43:26 UTC] PHP Warning:  include(manage_faculty.php): Failed to open stream: No such file or directory in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php on line 50
+[15-Sep-2024 05:43:26 UTC] PHP Warning:  include(): Failed opening 'manage_faculty.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php on line 50
+[15-Sep-2024 05:45:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php:16) in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php on line 11
+[15-Sep-2024 05:45:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php:16) in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php on line 11
+[15-Sep-2024 05:47:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php:16) in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php on line 23
+[15-Sep-2024 05:47:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php:16) in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php on line 23
+[15-Sep-2024 05:48:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php:16) in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php on line 27
+[15-Sep-2024 05:49:50 UTC] PHP Warning:  include(edit_course.php): Failed to open stream: No such file or directory in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php on line 48
+[15-Sep-2024 05:49:50 UTC] PHP Warning:  include(edit_course.php): Failed to open stream: No such file or directory in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php on line 48
+[15-Sep-2024 05:49:50 UTC] PHP Warning:  include(): Failed opening 'edit_course.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php on line 48
+[15-Sep-2024 05:50:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php:16) in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php on line 27
+[15-Sep-2024 05:51:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php:16) in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php on line 32
+[15-Sep-2024 05:51:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php:16) in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php on line 32
+[15-Sep-2024 05:52:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php:16) in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php on line 32
+[15-Sep-2024 05:53:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php:16) in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php on line 32
+[15-Sep-2024 05:53:27 UTC] PHP Warning:  include(manage_subjects.php): Failed to open stream: No such file or directory in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php on line 48
+[15-Sep-2024 05:53:27 UTC] PHP Warning:  include(manage_subjects.php): Failed to open stream: No such file or directory in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php on line 48
+[15-Sep-2024 05:53:27 UTC] PHP Warning:  include(): Failed opening 'manage_subjects.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php on line 48
+[15-Sep-2024 05:53:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php:16) in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php on line 32
+[15-Sep-2024 06:00:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`eajlbarx_assignmentiilm`.`Students`, CONSTRAINT `Students_ibfk_1` FOREIGN KEY (`Stu_course`) REFERENCES `Courses` (`Course_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php:47
+Stack trace:
+#0 /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php(47): mysqli_stmt->execute()
+#1 /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php(49): include('/home/eajlbarx/...')
+#2 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php on line 47
+[15-Sep-2024 06:01:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`eajlbarx_assignmentiilm`.`Students`, CONSTRAINT `Students_ibfk_1` FOREIGN KEY (`Stu_course`) REFERENCES `Courses` (`Course_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php:47
+Stack trace:
+#0 /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php(47): mysqli_stmt->execute()
+#1 /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php(49): include('/home/eajlbarx/...')
+#2 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php on line 47
+[15-Sep-2024 06:17:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`eajlbarx_assignmentiilm`.`Assignments`, CONSTRAINT `Assignments_ibfk_1` FOREIGN KEY (`Fac_id`) REFERENCES `Faculty` (`Fac_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/assignments.php:22
+Stack trace:
+#0 /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/assignments.php(22): mysqli_stmt->execute()
+#1 /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php(49): include('/home/eajlbarx/...')
+#2 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/assignments.php on line 22
+[15-Sep-2024 06:24:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`eajlbarx_assignmentiilm`.`Assignments`, CONSTRAINT `Assignments_ibfk_1` FOREIGN KEY (`Fac_id`) REFERENCES `Faculty` (`Fac_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/assignments.php:22
+Stack trace:
+#0 /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/assignments.php(22): mysqli_stmt->execute()
+#1 /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php(49): include('/home/eajlbarx/...')
+#2 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/assignments.php on line 22
+[15-Sep-2024 06:34:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 59
+[15-Sep-2024 06:34:47 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 59
+[15-Sep-2024 06:34:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 63
+[15-Sep-2024 06:34:47 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 63
+[15-Sep-2024 06:34:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 103
+[15-Sep-2024 06:34:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 103
+[15-Sep-2024 06:34:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 103
+[15-Sep-2024 06:34:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 103
+[15-Sep-2024 18:58:26 Asia/Kolkata] PHP Warning:  Undefined variable $conn in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/add_user.php on line 25
+[15-Sep-2024 18:58:26 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/add_user.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/add_user.php on line 25
+[15-Sep-2024 19:01:58 Asia/Kolkata] PHP Warning:  Undefined array key "Stu_name" in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 59
+[15-Sep-2024 19:01:58 Asia/Kolkata] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 59
+[15-Sep-2024 19:01:58 Asia/Kolkata] PHP Warning:  Undefined array key "Stu_email" in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 63
+[15-Sep-2024 19:01:58 Asia/Kolkata] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/edit_user.php on line 63
+[15-Sep-2024 19:14:56 Asia/Kolkata] PHP Warning:  Undefined variable $delete_query in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/delete_user.php on line 14
+[15-Sep-2024 19:14:56 Asia/Kolkata] PHP Deprecated:  mysqli::query(): Passing null to parameter #1 ($query) of type string is deprecated in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/delete_user.php on line 14
+[15-Sep-2024 19:14:56 Asia/Kolkata] PHP Fatal error:  Uncaught ValueError: mysqli::query(): Argument #1 ($query) cannot be empty in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/delete_user.php:14
+Stack trace:
+#0 /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/delete_user.php(14): mysqli->query('')
+#1 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/delete_user.php on line 14
+[15-Sep-2024 20:06:08 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`eajlbarx_assignmentiilm`.`Students`, CONSTRAINT `Students_ibfk_1` FOREIGN KEY (`Stu_course`) REFERENCES `Courses` (`Course_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php:47
+Stack trace:
+#0 /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php(47): mysqli_stmt->execute()
+#1 /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php(40): include('/home/eajlbarx/...')
+#2 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php on line 47
+[15-Sep-2024 20:06:21 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`eajlbarx_assignmentiilm`.`Students`, CONSTRAINT `Students_ibfk_1` FOREIGN KEY (`Stu_course`) REFERENCES `Courses` (`Course_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php:47
+Stack trace:
+#0 /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php(47): mysqli_stmt->execute()
+#1 /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/admin_dashboard.php(40): include('/home/eajlbarx/...')
+#2 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/manage_courses.php on line 47
+[15-Sep-2024 21:16:21 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Submission_id' in 'field list' in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/grade_submission.php:29
+Stack trace:
+#0 /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/grade_submission.php(29): mysqli->prepare('INSERT INTO Gra...')
+#1 {main}
+  thrown in /home/eajlbarx/iilm.ssapvtltd.in/assignment/admin-dashboard/grade_submission.php on line 29
